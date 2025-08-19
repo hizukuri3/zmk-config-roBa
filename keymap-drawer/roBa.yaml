@@ -38,7 +38,7 @@ layers:
   - LEFT SHIFT
   - ESCAPE
   - LEFT GUI
-  - {t: LANGUAGE 5, h: LEFT ALT}
+  - {t: LANGUAGE 2, h: LEFT ALT}
   - LEFT GUI
   - TAB
   - ENTER
@@ -95,8 +95,8 @@ layers:
   - '9'
   - (
   - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
@@ -107,21 +107,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ']'
-  - '='
-  - UP ARROW
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - +
   - \
   - '1'
   - '2'
   - '3'
   - '{'
-  - {t: ▽, type: trans}
+  - {t: '7', h: toggle}
   - {t: ▽, type: trans}
   - '}'
-  - LEFT ARROW
-  - DOWN
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
@@ -342,16 +342,16 @@ layers:
   - M
   - ','
   - .
-  - '='
-  - LEFT SHIFT
-  - LEFT GUI
-  - LEFT ALT
-  - {t: LANGUAGE 5, h: LEFT ALT}
-  - {t: SPACE, h: MOUSE}
-  - TAB
   - BACKSPACE
-  - {t: ENTER, h: NUM}
-  - Gui+Sft+5
+  - LEFT SHIFT
+  - ESCAPE
+  - LEFT GUI
+  - {t: LANGUAGE 2, h: LEFT GUI}
+  - LEFT ALT
+  - TAB
+  - ENTER
+  - {t: SPACE, h: NUM}
+  - Gui+Sft+S
 combos:
 - p: [11, 12]
   k: TAB
