@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - BACKSPACE
   - Z
   - X
   - C
@@ -34,16 +34,60 @@ layers:
   - M
   - ','
   - .
-  - BACKSPACE
-  - LEFT SHIFT
-  - ESCAPE
-  - LEFT GUI
-  - {t: LANGUAGE 2, h: LEFT ALT}
-  - LEFT GUI
-  - TAB
   - ENTER
+  - ESCAPE
+  - CAPSLOCK
+  - LEFT ALT
+  - LEFT SHIFT
+  - LEFT GUI
+  - {t: TAB, h: MOUSE}
+  - TAB
   - {t: SPACE, h: NUM}
   - Gui+Sft+5
+  '7':
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - {t: I, h: SCROLL}
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - Sft+Gui+S
+  - ;
+  - H
+  - J
+  - K
+  - L
+  - BACKSPACE
+  - Z
+  - X
+  - C
+  - V
+  - {t: B, h: '6'}
+  - ':'
+  - /
+  - N
+  - M
+  - ','
+  - .
+  - ENTER
+  - ESCAPE
+  - CAPSLOCK
+  - LEFT ALT
+  - LEFT SHIFT
+  - LCTRL
+  - Alt+LEFT SHIFT
+  - TAB
+  - {t: SPACE, h: NUM}
+  - Gui+Sft+S
   FUNCTION:
   - F1
   - F2
@@ -95,10 +139,10 @@ layers:
   - '9'
   - (
   - )
-  - '='
+  - ''
   - UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - ''
   - '`'
   - '4'
   - '5'
@@ -108,7 +152,7 @@ layers:
   - {t: ▽, type: trans}
   - ']'
   - LEFT ARROW
-  - DOWN ARROW
+  - ''
   - RIGHT ARROW
   - +
   - \
@@ -119,18 +163,62 @@ layers:
   - {t: '7', h: toggle}
   - {t: ▽, type: trans}
   - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - DOWN ARROW
+  - ''
+  - '='
   - {t: ▽, type: trans}
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - LEFT SHIFT
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - ''
+  MOUSE:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ARROW:
   - ESCAPE
@@ -159,50 +247,6 @@ layers:
   - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
   - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  MOUSE:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,50 +352,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  '7':
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - {t: I, h: SCROLL}
-  - O
-  - P
-  - A
-  - S
-  - D
-  - F
-  - G
-  - Sft+Gui+S
-  - ;
-  - H
-  - J
-  - K
-  - L
-  - '-'
-  - Z
-  - X
-  - C
-  - V
-  - {t: B, h: '6'}
-  - ':'
-  - /
-  - N
-  - M
-  - ','
-  - .
-  - BACKSPACE
-  - LEFT SHIFT
-  - ESCAPE
-  - LEFT GUI
-  - {t: LANGUAGE 2, h: LEFT GUI}
-  - LEFT ALT
-  - TAB
-  - ENTER
-  - {t: SPACE, h: NUM}
-  - Gui+Sft+S
 combos:
 - p: [11, 12]
   k: TAB
