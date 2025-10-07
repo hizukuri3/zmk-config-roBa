@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - BACKSPACE
+  - ENTER
   - Z
   - X
   - C
@@ -40,10 +40,10 @@ layers:
   - LEFT ALT
   - LEFT SHIFT
   - LEFT GUI
-  - {t: TAB, h: MOUSE}
   - TAB
+  - BACKSPACE
   - {t: SPACE, h: NUM}
-  - Gui+Sft+5
+  - {t: ▽, type: trans}
   '7':
   - Q
   - W
@@ -66,7 +66,7 @@ layers:
   - J
   - K
   - L
-  - BACKSPACE
+  - ENTER
   - Z
   - X
   - C
@@ -84,10 +84,10 @@ layers:
   - LEFT ALT
   - LEFT SHIFT
   - LCTRL
-  - Alt+LEFT SHIFT
   - TAB
+  - BACKSPACE
   - {t: SPACE, h: NUM}
-  - Gui+Sft+S
+  - AltGr+`
   FUNCTION:
   - F1
   - F2
@@ -139,9 +139,9 @@ layers:
   - '9'
   - (
   - )
-  - ''
+  - +
   - UP ARROW
-  - '-'
+  - '*'
   - ''
   - '`'
   - '4'
@@ -152,9 +152,9 @@ layers:
   - {t: ▽, type: trans}
   - ']'
   - LEFT ARROW
-  - ''
+  - '-'
   - RIGHT ARROW
-  - +
+  - ''
   - \
   - '1'
   - '2'
@@ -163,10 +163,10 @@ layers:
   - {t: '7', h: toggle}
   - {t: ▽, type: trans}
   - '}'
-  - ''
+  - '='
   - DOWN ARROW
   - ''
-  - '='
+  - ''
   - {t: ▽, type: trans}
   - '0'
   - ''
@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
