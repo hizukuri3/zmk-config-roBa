@@ -107,7 +107,7 @@
 &kp Q       &kp W     &kp E         &kp R           &kp T                                                 &kp Y        &kp U  &lt 6 I    &kp O    &kp P
 &kp A       &kp S     &kp D         &kp F           &kp G        &kp LS(LG(S))      &kp NON_US_BACKSLASH  &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &kp Z       &kp X     &kp C         &kp V           &lt 7 B      &kp COLON          &kp ENTER             &kp N        &kp M  &kp COMMA  &kp DOT  &kp QUESTION
-&kp ESCAPE  &kp LGUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 6 LCTRL  &kp TAB            &kp BACKSPACE         &lt 3 SPACE                             &kp RA(GRAVE)
+&kp ESCAPE  &kp LGUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 6 LCTRL  &kp TAB            &kp BACKSPACE         &lt 3 SPACE                             &none
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
