@@ -93,10 +93,10 @@
 
         default_layer {
             bindings = <
-&kp Q       &kp W      &kp E         &kp R           &kp T                                                &kp Y        &kp U  &lt 6 I    &kp O    &kp P
-&kp A       &kp S      &kp D         &kp F           &kp G       &kp LS(LG(S))      &kp NON_US_BACKSLASH  &kp H        &kp J  &kp K      &kp L    &kp ENTER
-&kp Z       &kp X      &kp C         &kp V           &lt 7 B     &kp SEMICOLON      &kp COLON             &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp ESCAPE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 5 LGUI  &kp TAB            &kp BACKSPACE         &lt 3 SPACE                             &kp QUESTION
+&kp Q       &kp W      &kp E         &kp R           &kp T                                         &kp Y        &kp U  &lt 6 I    &kp O    &kp P
+&kp A       &kp S      &kp D         &kp F           &kp G       &kp LS(LG(S))      &kp BACKSLASH  &kp H        &kp J  &kp K      &kp L    &kp ENTER
+&kp Z       &kp X      &kp C         &kp V           &lt 7 B     &kp SEMICOLON      &kp COLON      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp ESCAPE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 5 LGUI  &kp TAB            &kp BACKSPACE  &lt 3 SPACE                             &kp QUESTION
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -104,10 +104,10 @@
 
         layer_7 {
             bindings = <
-&kp Q       &kp W     &kp E         &kp R           &kp T                                                 &kp Y        &kp U  &lt 6 I    &kp O    &kp P
-&kp A       &kp S     &kp D         &kp F           &kp G        &kp LS(LG(S))      &kp NON_US_BACKSLASH  &kp H        &kp J  &kp K      &kp L    &kp ENTER
-&kp Z       &kp X     &kp C         &kp V           &lt 7 B      &kp SEMICOLON      &kp COLON             &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp ESCAPE  &kp LGUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 6 LCTRL  &kp TAB            &kp BACKSPACE         &lt 3 SPACE                             &kp QUESTION
+&kp Q       &kp W     &kp E         &kp R           &kp T                                          &kp Y        &kp U  &lt 6 I    &kp O    &kp P
+&kp A       &kp S     &kp D         &kp F           &kp G        &kp LS(LG(S))      &kp BACKSPACE  &kp H        &kp J  &kp K      &kp L    &kp ENTER
+&kp Z       &kp X     &kp C         &kp V           &lt 7 B      &kp SEMICOLON      &kp COLON      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp ESCAPE  &kp LGUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 6 LCTRL  &kp TAB            &kp BACKSPACE  &lt 3 SPACE                             &kp QUESTION
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
